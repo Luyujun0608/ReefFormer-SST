@@ -149,9 +149,14 @@ RMSE (°C), lower is better. Learned models are means over seeds 42–44.
 | DAP (damped persistence) | 0.6203 | 0.3418 |
 | DLinear | 0.5397 | 0.3308 |
 | PatchTST | 0.5548 | 0.3389 |
-| iTransformer | 0.5570 | 0.4132 |
+| iTransformer (365-day context, as selected around Hainan) | 0.5570 | 0.4132 |
+| iTransformer (90-day branch, favored by GBR validation) | 0.5648 | 0.3315 |
 | LSTM | 0.5485 | 0.3302 |
 | **ReefFormer** | **0.5395** | **0.3170** |
+
+DLinear, PatchTST, and the LSTM use the 90-day context selected on GBR validation
+RMSE. The two iTransformer contexts are preregistered ReefFormer components on the
+GBR, so both are listed (see Table S27 of the supplementary material).
 
 <p align="center">
   <img src="assets/skill_summary.png" alt="Skill summary around Hainan Island" width="420"/>

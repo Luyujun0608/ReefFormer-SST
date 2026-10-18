@@ -19,7 +19,9 @@ two Hainan Island domains are distributed on request.
 - `data/processed/gbr_coraltemp_protocol.json`: pixel-selection rule, splits,
   origin counts, and dataset hashes.
 - `data/inventories/gbr_coraltemp_pixels.csv`: the 292 CoralTemp cells within
-  10 km of 33 preregistered AIMS monitoring anchors.
+  10 km of 33 preregistered reef anchors (18 AIMS Long-Term Monitoring
+  Program, 12 AIMS Marine Monitoring Program, and 3 Great Barrier Reef Marine
+  Park Authority sites).
 - `checkpoints/gbr_coraltemp/`: 90-day and 365-day iTransformer branches for
   seeds 42, 43, and 44.
 - `reference_results/gbr_coraltemp/`: archived summary metrics and fusion
@@ -74,9 +76,11 @@ Coral Reef Watch and Skirving et al. (2020),
 `https://doi.org/10.3390/rs12233856`. Source portal:
 `https://coralreefwatch.noaa.gov/product/5km_v3.1_op/index_5km_sst.php`.
 
-**AIMS reef anchors.** GBR anchor locations were drawn from public Australian
-Institute of Marine Science monitoring resources (CC BY). Credit the Australian
-Institute of Marine Science and the Long-Term Monitoring Program.
+**GBR reef anchors.** Thirty anchor locations were drawn from public Australian
+Institute of Marine Science monitoring resources (CC BY) and three from public
+Great Barrier Reef Marine Park Authority site information. Credit the Australian
+Institute of Marine Science, its Long-Term Monitoring Program and Marine
+Monitoring Program, and the Great Barrier Reef Marine Park Authority.
 
 **Copernicus Marine OSTIA** (Hainan, on request). Product
 `SST_GLO_SST_L4_REP_OBSERVATIONS_010_011`, dataset
