@@ -246,7 +246,7 @@ Arrays are shaped `[forecast_origin, lead, spatial_unit]` in anomaly units. See
 ```bibtex
 @misc{reefformer2026,
   title  = {ReefFormer: Lead-Dependent Fusion of Transformer and Persistence Forecasts for 1--30-Day Sea Surface Temperature Prediction in Coral Reef Coastal Waters},
-  author = {ReefFormer contributors},
+  author = {Lu, Yujun and Yang, Changen and Liang, Xi and Zhou, Zhi},
   year   = {2026},
   note   = {Research manuscript. Code: https://github.com/Luyujun0608/ReefFormer-SST}
 }

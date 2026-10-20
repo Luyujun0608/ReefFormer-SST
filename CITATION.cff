@@ -1,10 +1,24 @@
 cff-version: 1.2.0
 message: "If you use this software or the released data, please cite the associated article and this repository."
-title: "ReefFormer: lead-dependent fusion of Transformer and persistence forecasts for 1-30-day sea surface temperature prediction"
+title: "ReefFormer: Lead-Dependent Fusion of Transformer and Persistence Forecasts for 1-30-Day Sea Surface Temperature Prediction in Coral Reef Coastal Waters"
 type: software
 version: 1.1.0
 authors:
-  - name: "ReefFormer contributors"
+  - family-names: "Lu"
+    given-names: "Yujun"
+    affiliation: "School of Marine Technology and Equipment, Hainan University"
+    orcid: "https://orcid.org/0009-0005-1924-6961"
+  - family-names: "Yang"
+    given-names: "Changen"
+    affiliation: "School of Marine Technology and Equipment, Hainan University"
+    orcid: "https://orcid.org/0009-0003-8246-6575"
+  - family-names: "Liang"
+    given-names: "Xi"
+    affiliation: "School of Marine Technology and Equipment, Hainan University"
+  - family-names: "Zhou"
+    given-names: "Zhi"
+    affiliation: "School of Marine Biology and Fisheries, Hainan University"
+    orcid: "https://orcid.org/0009-0002-2205-5718"
 license: AGPL-3.0-only
 repository-code: "https://github.com/Luyujun0608/ReefFormer-SST"
 keywords:

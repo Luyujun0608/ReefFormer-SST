@@ -9,7 +9,12 @@ description = "Lead-dependent context and persistence fusion for 1-30-day satell
 readme = "README.md"
 requires-python = ">=3.10"
 license = {file = "LICENSE"}
-authors = [{name = "ReefFormer contributors"}]
+authors = [
+  {name = "Yujun Lu"},
+  {name = "Changen Yang"},
+  {name = "Xi Liang"},
+  {name = "Zhi Zhou"},
+]
 dependencies = [
   "numpy>=1.26,<3",
   "pandas>=2.0,<3",
