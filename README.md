@@ -157,10 +157,6 @@ DLinear, PatchTST, and the LSTM use the 90-day context selected on GBR validatio
 RMSE. The two iTransformer contexts are preregistered ReefFormer components on the
 GBR, so both are listed (see Table S27 of the supplementary material).
 
-<p align="center">
-  <img src="assets/skill_summary.png" alt="Skill summary around Hainan Island" width="420"/>
-</p>
-
 ## Project Structure
 
 ```bash
