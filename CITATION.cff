@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software or the released data, please cite the associated article and this repository."
-title: "ReefFormer: lead-dependent forecast fusion for 1-30-day satellite sea surface temperature prediction"
+title: "ReefFormer: lead-dependent fusion of Transformer and persistence forecasts for 1-30-day sea surface temperature prediction"
 type: software
 version: 1.1.0
 authors:

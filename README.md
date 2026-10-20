@@ -1,4 +1,4 @@
-# ReefFormer: Lead-Dependent Forecast Fusion for 1–30-Day Satellite SST Prediction
+# ReefFormer: Lead-Dependent Fusion of Transformer and Persistence Forecasts for 1–30-Day SST Prediction
 
 <p align="center">
   <img src="assets/framework.png" alt="ReefFormer framework" width="760"/>
@@ -103,8 +103,7 @@ curve with two coefficients, fitted on validation forecasts only.
 
 ## Paper Access
 
-*Lead-Dependent Forecast Fusion for 1–30-Day Satellite Sea Surface Temperature
-Prediction in Reef-Adjacent Coastal Waters* (research manuscript). A public article link will be
+*ReefFormer: Lead-Dependent Fusion of Transformer and Persistence Forecasts for 1–30-Day Sea Surface Temperature Prediction in Coral Reef Coastal Waters* (research manuscript). A public article link will be
 added when available.
 
 ## Datasets
@@ -250,7 +249,7 @@ Arrays are shaped `[forecast_origin, lead, spatial_unit]` in anomaly units. See
 
 ```bibtex
 @misc{reefformer2026,
-  title  = {Lead-Dependent Forecast Fusion for 1--30-Day Satellite Sea Surface Temperature Prediction in Reef-Adjacent Coastal Waters},
+  title  = {ReefFormer: Lead-Dependent Fusion of Transformer and Persistence Forecasts for 1--30-Day Sea Surface Temperature Prediction in Coral Reef Coastal Waters},
   author = {ReefFormer contributors},
   year   = {2026},
   note   = {Research manuscript. Code: https://github.com/Luyujun0608/ReefFormer-SST}
